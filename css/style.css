@@ -4,3 +4,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.jump{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background: red; */
+    margin-bottom: 60px;
+}
+h1{
+    font-size: 72px;
+    /* background: blue; */
+    height: 100px;
+    width: 500px;
+}
+p{
+    font-size: 30px;
+    /* background: violet; */
+    margin-bottom: 20px;
+}
+.text button{
+    border-radius: 10px;
+    color:#fff;
+    padding: 6px 10px;
+    background-color: black;
+}
+.big__picture{
+    display: flex;
+    justify-content: center;
+
+}
