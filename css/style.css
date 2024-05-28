@@ -4,3 +4,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.pagina {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+}
+
+.jump{
+    /* background: red; */
+    margin-top: 30px;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.texto h1 {
+    font-size: 6rem;
+}
+.texto p{
+    font-size: 1.5rem;
+}
